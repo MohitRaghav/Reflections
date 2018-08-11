@@ -6,3 +6,6 @@ Description: shows the difference between two files as indicated by commit id's.
 
 Command: git checkout commit_id
 Description: (git checkout commit_id) will lead the whole code to that id and you can check weather the bug was introduced at the point or not. Later you can return back to latest commit.
+
+Command: git status
+Description: It reveals the status of changed files since last commit.
