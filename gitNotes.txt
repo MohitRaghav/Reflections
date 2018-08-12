@@ -9,3 +9,25 @@ Description: (git checkout commit_id) will lead the whole code to that id and yo
 
 Command: git status
 Description: It reveals the status of changed files since last commit.
+
+Command: git add file_1 file_2 ....
+Description: This adds the listed files to staging area from where they are finally commited.
+
+Command: git init
+Description: Initialises git creates .git repositroy in working directory.
+
+Command: git branch
+Description: It will show all the braches in repository and the branch we are currently working on.
+
+Command: git branch branchName
+Description: creates a new branch with specified branch name(it starts from the current checkedout commit).
+
+Command: git merge branch_1 branch_2
+Description: It will merege branch_2 with branch_1 and changes are incorporated accordingly.
+
+Command: git show commitID
+Description: git diff is shown between commitID and its parent(usefull when we dont know the parent of specified commit id).
+
+Command: git branch -d branchName
+Description: Deletes the branhName(commits will remain if command is executed after merging otherwise commits will not be accessible).
+
